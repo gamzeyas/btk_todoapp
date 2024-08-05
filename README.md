@@ -1,16 +1,36 @@
-# btk_todo
+# BTK Todo App
 
-A new Flutter project.
+BTK Todo App, BTK Akademi İleri Seviye Flutter Atölyesi 2024 kapsamında geliştirilen modern bir görev yönetimi uygulamasıdır. Bu proje, en güncel Flutter teknolojilerini ve best practice'leri kullanarak geliştirilmiş olup, gerçek dünya senaryolarına uygun bir yapı sunmaktadır.
 
-## Getting Started
+## 🌟 Özellikler
 
-This project is a starting point for a Flutter application.
+- Kullanıcı Kimlik Doğrulama (Kayıt, Giriş, Çıkış)
+- Görev Oluşturma, Düzenleme ve Silme
+- Kullanıcı Profil Yönetimi
+- Görevleri Kategorilere Ayırma
+- Görev Önceliklendirme
+- Koyu/Açık Tema Desteği
+- Çoklu Dil Desteği
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Kullanılan Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter & Dart**: UI geliştirme ve uygulama mantığı
+- **BLoC Pattern**: Durum yönetimi
+- **GetIt & Injectable**: Bağımlılık enjeksiyonu
+- **Retrofit & Dio**: API entegrasyonu
+- **JSON Serializable**: JSON işleme
+- **Formz**: Form validasyonu
+- **GoRouter**: Navigasyon yönetimi
+- **Flutter Secure Storage & Shared Preferences**: Yerel veri depolama
+- **FlutterGen**: Asset yönetimi
+- **Envied**: Ortam değişkenleri yönetimi
+- **Flutter Localizations**: Çoklu dil desteği
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗 Mimari Yapı
+
+Proje, temiz mimari prensiplerini takip ederek aşağıdaki katmanlara ayrılmıştır:
+
+- **Presentation**: UI bileşenleri ve BLoC'lar
+- **Domain**: İş mantığı ve repository arayüzleri
+- **Data**: API iletişimi, yerel depolama ve model sınıfları
+- **Core**: Uygulama genelinde kullanılan yardımcı sınıflar ve uzantılar
