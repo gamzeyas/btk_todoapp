@@ -1,0 +1,108 @@
+{
+    "@@locale": "en",
+
+    "appName": "Todo App",
+    "@appName": {
+        "description": "Please don't change the name of the application"
+    },
+
+    "loginMessageError": "Please check your username or password",
+    "@loginMessageError": {
+        "description": "Error message for incorrect username or password"
+    },
+    
+    "signupMessageError": "Please check your username, name, surname, or password",
+    "@signupMessageError": {
+        "description": "Error message for incorrect or invalid username, name, surname, or password"
+    },
+
+    "loginMessageSuccess": "Signed in as {email}",
+    "@loginMessageSuccess": {
+        "description": "Success message after login",
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+
+    "logoutMessageSuccess": "You have been logged out.",
+    "@logoutMessageSuccess": {
+        "description": "Message displayed when the user has been logged out."
+    },
+
+    "signupMessageSuccess": "Signed up as {email}",
+    "@signupMessageSuccess": {
+        "description": "Success message after signup",
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+
+    "authFormUsername": "Username",
+    "@authFormUsername": {
+        "description": "Label for username field"
+    },
+
+    "authFormName": "Name",
+    "@authFormName": {
+        "description": "Label for the name field"
+    },
+    
+    "authFormSurname": "Surname",
+    "@authFormSurname": {
+        "description": "Label for the surname field"
+    },
+
+    "authFormPassword": "Password",
+    "@authFormPassword": {
+        "description": "Label for password field"
+    },
+
+    "authFormErrorsFill": "Please fill in the {fieldname} field",
+    "@authFormErrorsFill": {
+        "description": "Error message for empty input field",
+        "placeholders": {
+            "fieldname": {
+                "type": "String"
+            }
+        }
+    },
+
+    "authFormErrorsInvalid": "Please enter a valid {fieldname}",
+    "@authFormErrorsInvalid": {
+        "description": "Error message for invalid input",
+        "placeholders": {
+            "fieldname": {
+                "type": "String"
+            }
+        }
+    },
+
+    "authNoAccount": "Don't have an account?",
+    "@authNoAccount": {
+        "description": "Prompt asking if the user doesn't have an account on the LogIn page"
+    },
+    
+    "authAlreadyAccount": "Have an account already?",
+    "@authAlreadyAccount": {
+        "description": "Prompt asking if the user already has an account on the SignUp page"
+    },
+
+    "authButtonLogIn": "Log In",
+    "@authButtonLogIn": {
+        "description": "Login button text"
+    },
+
+    "authButtonSignUp": "Sign Up",
+    "@authButtonSignUp": {
+        "description": "Button text for signing up on the SignUp page"
+    },
+
+    "authButtonLogOut": "Log Out",
+    "@authButtonLogOut": {
+        "description": "Logout button text"
+    }  
+}
